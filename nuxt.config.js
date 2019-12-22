@@ -5,6 +5,10 @@ export default {
   ** Headers of the page
   */
   head: {
+    htmlAttrs: {
+      lang: 'ar',
+      dir: 'rtl'
+    },
     title: process.env.npm_package_name || '',
     meta: [
       { charset: 'utf-8' },
@@ -23,6 +27,7 @@ export default {
   ** Global CSS
   */
   css: [
+    '~/assets/scss/main.scss',
   ],
   /*
   ** Plugins to load before mounting the App

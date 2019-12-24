@@ -1,0 +1,28 @@
+html {
+    font-family: 'janna', sans-serif;
+    font-size: 16px;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    margin-top: 90px;
+    background-color:#fff2dc;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+h1 {font-size: 3em;}
+h2 {font-size: 2.8em;}
+h3 {font-size: 2.4em;}
+h4 {font-size: 2em;}
+h5 {font-size: 1.8em;}
+h6 {font-size: 1.4em;}
+
+p {font-size: 1.2em;}
